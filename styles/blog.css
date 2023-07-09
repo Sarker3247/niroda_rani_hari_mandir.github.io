@@ -1,12 +1,23 @@
 nav > ul > li{
-    display: inline;
+    display:inline;
     margin: RIGHT;
     margin: 50px;
     
+    
 }
 
+nav >img {
+    height: 220px;
+    display: inline;
+
+}
+h2{
+    border:none;
+}
 ul{
-    text-align: center;
+    text-align: right;
+    padding-top: 10px;
+    margin-right: 50px;
 }
 
 a{
@@ -14,14 +25,15 @@ a{
     
 }
 
-nav{
- background-color:lemonchiffon;
- border: solid black;
- border-radius: 5px;
- margin: 40px;
- box-shadow: 10px 10px 30px;
+.navbar{
+    height: 200px;
+    border: solid;
+    background-color: black;
+
 
 }
+
+
 
 footer{
     text-align: center;
@@ -35,12 +47,6 @@ footer{
 
 }
 
-.img1{
-    display: flex;
-    justify-content: center;
-
- 
-}
 
 .images{
     border: solid black;
@@ -50,19 +56,22 @@ footer{
     padding-bottom: 20px;
 }
 
-.img2{
-    display: flex;
-    justify-content: center;
-
-}
 
 img{
     padding: 20px;
 }
 
+div > img {
+    height: 500px;
+    display: inline;
+
+    
+}
+
 .m{
-    height: 1000px;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
 }
